@@ -19,4 +19,11 @@ class User extends Authenticatable
     protected $hidden = [                // 需要隐藏的字段
         'password', 'remember_token',
     ];
+
+    // 获取头像
+    public function gravatar($size = '100')
+    {
+        $hash = md5(strtolower(trim($this->attributes['email'])));
+        return "http://www.gravatar.com/avatar/$hash?s=$size";
+    }
 }
