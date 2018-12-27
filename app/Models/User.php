@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -10,11 +10,13 @@ class User extends Authenticatable
 {
     use Notifiable;
 
-    protected $fillable = [
+    protected  $table = 'users';         // 对应表
+
+    protected $fillable = [              // 允许用户更新的字段
         'name', 'email', 'password',
     ];
 
-    protected $hidden = [
+    protected $hidden = [                // 需要隐藏的字段
         'password', 'remember_token',
     ];
 }
