@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="593ea567-f0c9-400c-b655-1df1c4734d05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/weibo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weibo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,19 +54,19 @@
           <entry key="css" value="1" />
           <entry key="example" value="1" />
           <entry key="gitignore" value="6" />
-          <entry key="js" value="2" />
+          <entry key="js" value="4" />
           <entry key="json" value="2" />
-          <entry key="php" value="51" />
+          <entry key="php" value="52" />
           <entry key="scss" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="1" />
-          <entry key="Blade" value="22" />
+          <entry key="Blade" value="23" />
           <entry key="CSS" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="4" />
           <entry key="PHP" value="29" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="3" />
@@ -71,18 +75,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="6" />
-          <entry key="js" value="27" />
+          <entry key="js" value="54" />
           <entry key="json" value="3" />
-          <entry key="php" value="1657" />
+          <entry key="php" value="1856" />
           <entry key="scss" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="112" />
+          <entry key="Blade" value="170" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="27" />
-          <entry key="PHP" value="1545" />
+          <entry key="JavaScript" value="54" />
+          <entry key="PHP" value="1686" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="10" />
         </counts>
@@ -106,17 +110,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+            <state relative-caret-position="60">
+              <caret line="2" column="64" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="686">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -125,10 +129,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/sessions/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -145,8 +158,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="480">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="32" selection-start-line="32" selection-end-line="38" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -160,6 +182,7 @@
       <find>guanyu</find>
       <find>use App\User</find>
       <find>App\User</find>
+      <find>home</find>
     </findStrings>
     <replaceStrings>
       <replace>use App\Models\User</replace>
@@ -177,7 +200,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
@@ -189,11 +211,14 @@
         <option value="$PROJECT_DIR$/resources/views/users/create.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_messages.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/resources/views/sessions/create.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
       </list>
     </option>
   </component>
@@ -377,6 +402,13 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -385,7 +417,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Sess&#9;null&#9;null&#10;we&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;de&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;defa&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;app.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;UserCon&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;create&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/users/create.blade.php&#10;User&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Models/User.php&#10;UserC&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;web&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;home&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php&#10;package.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/package.json&#10;pacj&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/webpack.mix.js&#10;.idea&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/.idea&#10;route&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes&#10;home.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="boot&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/js/bootstrap.js&#10;Sess&#9;null&#9;null&#10;we&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;de&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;defa&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;app.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;UserCon&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;create&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/users/create.blade.php&#10;User&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Models/User.php&#10;UserC&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;web&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;home&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php&#10;package.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/package.json&#10;pacj&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/webpack.mix.js&#10;.idea&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/.idea&#10;route&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes&#10;home.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -423,12 +455,12 @@
       <workItem from="1545901194183" duration="1642000" />
       <workItem from="1545902870785" duration="6499000" />
       <workItem from="1546067958791" duration="1467000" />
-      <workItem from="1546073951643" duration="1380000" />
+      <workItem from="1546073951643" duration="2018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14916000" />
+    <option name="totallyTimeSpent" value="15554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -526,13 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -661,17 +686,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sessions/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -685,27 +717,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sessions/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="686">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="32" selection-start-line="32" selection-end-line="38" selection-end-column="4" />
         </state>
       </provider>
     </entry>
