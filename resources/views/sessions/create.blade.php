@@ -10,7 +10,7 @@
             <div class="card-body">
                 @include('shared._errors')
 
-                <form method="POST" action="{{ route('sessions.login') }}">
+                <form method="POST" action="{{ route('login') }}">
                     {{ csrf_field() }}
 
                     <div class="form-group">

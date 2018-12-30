@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php" line="42" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="593ea567-f0c9-400c-b655-1df1c4734d05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +57,7 @@
           <entry key="gitignore" value="6" />
           <entry key="js" value="4" />
           <entry key="json" value="2" />
-          <entry key="php" value="62" />
+          <entry key="php" value="68" />
           <entry key="rnc" value="1" />
           <entry key="scss" value="4" />
         </counts>
@@ -70,7 +69,7 @@
           <entry key="CSS" value="1" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="32" />
+          <entry key="PHP" value="38" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="RNG Compact" value="1" />
           <entry key="SCSS" value="4" />
@@ -81,7 +80,7 @@
           <entry key="gitignore" value="6" />
           <entry key="js" value="54" />
           <entry key="json" value="3" />
-          <entry key="php" value="2677" />
+          <entry key="php" value="3119" />
           <entry key="scss" value="13" />
         </counts>
       </usages-collector>
@@ -90,7 +89,7 @@
           <entry key="Blade" value="192" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="54" />
-          <entry key="PHP" value="2485" />
+          <entry key="PHP" value="2927" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="13" />
         </counts>
@@ -102,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="180">
+              <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -114,20 +113,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="385">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Policies/UserPolicy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="366">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -161,10 +187,18 @@
       <find>App\User</find>
       <find>home</find>
       <find>upda</find>
+      <find>\n</find>
+      <find>session.login</find>
+      <find>sessions.login</find>
+      <find>sessions.logout</find>
+      <find>store</find>
     </findStrings>
     <replaceStrings>
       <replace>use App\Models\User</replace>
       <replace>App\Models\User</replace>
+      <replace />
+      <replace>login</replace>
+      <replace>logout</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,12 +226,15 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/resources/views/sessions/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/edit.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Policies/UserPolicy.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
       </list>
     </option>
   </component>
@@ -374,6 +411,43 @@
             <path>
               <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Policies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weibo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weibo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -416,7 +490,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Users&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;edit&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/users/edit.blade.php&#10;web&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;cre&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/sessions/create.blade.php&#10;boot&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/js/bootstrap.js&#10;Sess&#9;null&#9;null&#10;we&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;de&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;defa&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;app.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;UserCon&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;create&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/users/create.blade.php&#10;User&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Models/User.php&#10;UserC&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;home&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php&#10;package.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/package.json&#10;pacj&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/webpack.mix.js&#10;.idea&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/.idea&#10;route&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes&#10;home.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="session&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/SessionsController.php&#10;Users&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;edit&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/users/edit.blade.php&#10;web&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;cre&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/sessions/create.blade.php&#10;boot&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/js/bootstrap.js&#10;Sess&#9;null&#9;null&#10;we&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes/web.php&#10;de&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;defa&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/layouts/default.blade.php&#10;app&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;app.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/config/app.php&#10;UserCon&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;create&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/users/create.blade.php&#10;User&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Models/User.php&#10;UserC&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/app/Http/Controllers/UsersController.php&#10;home&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php&#10;package.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/package.json&#10;pacj&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/webpack.mix.js&#10;.idea&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/.idea&#10;route&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/routes&#10;home.&#9;FILE&#9;file://C:/Users/Administrator/Code/weibo/resources/views/static_pages/home.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -456,12 +530,12 @@
       <workItem from="1546067958791" duration="1467000" />
       <workItem from="1546073951643" duration="4045000" />
       <workItem from="1546153840661" duration="451000" />
-      <workItem from="1546154684052" duration="744000" />
+      <workItem from="1546154684052" duration="2375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18776000" />
+    <option name="totallyTimeSpent" value="20407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -610,20 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/shared/_user_info.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -715,16 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -736,13 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -760,13 +803,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
+        <state relative-caret-position="140">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/UserPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SessionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
