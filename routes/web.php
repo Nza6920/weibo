@@ -10,3 +10,5 @@ Route::resource('users', 'UsersController');
 Route::get('/login', 'SessionsController@create')->name('sessions.login');
 Route::post('login', 'SessionsController@store')->name('sessions.login');
 Route::delete('logout', 'SessionsController@destroy')->name('sessions.logout');
+
+Route::get('/users/{user}/edit', 'UsersController@edit')->name('users.edit');
