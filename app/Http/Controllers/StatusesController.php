@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\Auth;
 
 class StatusesController extends Controller
 {
-
     public function __construct()
     {
         $this->middleware('auth');
     }
 
+    // 发布微博
     public function store(Request $request)
     {
         $this->validate($request, [
